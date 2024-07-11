@@ -21,8 +21,8 @@
 
     <div x-data="{count:0}">
         <p x-text="count"></p>
-        <button @click="count++">Count Up</button>  
-        <button @click="count--">Count Down</button>  
+        <button class="btn" @click="count++">Count Up</button>  
+        <button class="btn"@click="if(count>0)count--">Count Down</button>  
         </div>
 
         <!--for x-init directive-->
